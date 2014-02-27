@@ -1,8 +1,9 @@
 Metube::Application.routes.draw do
-  get "video/new"
-  get "video/index"
-  get "user/index"
-  get "user/show"
+  get "/video", to: "videos#index"
+  get "/video/:id", to: "videos#show"
+
+  get "/user", to: "users#index"
+  get "/user/:id", to: "users#show"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
