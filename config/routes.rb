@@ -1,4 +1,6 @@
 Metube::Application.routes.draw do
+  get "video/new"
+  get "video/index"
   get "user/index"
   get "user/show"
   # The priority is based upon order of creation: first created -> highest priority.
