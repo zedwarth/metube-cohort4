@@ -4,7 +4,7 @@ class VideoController < ApplicationController
   end
 
   def show
-    @video = Video.find_by_id(:id)
+    @video = Video.find_by(:id)
   end
 
 end
