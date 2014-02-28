@@ -3,11 +3,7 @@
 
 <h1>New Video</h1>
 
-
-
-
-
-<form action="/videos" method="post" name="video">
+<form action="/videos" method="post">
 
 Title: <input type="text" name="video[title]"><br>
 Description: <input type="text" name="video[description]"><br>
@@ -15,3 +11,5 @@ Youtube ID: <input type="text" name="video[youtube_id]"><br>
 <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
 <input type="submit" value="submit">
 </form>
+
+
