@@ -46,7 +46,7 @@ Video.create([
     description: "A poor village under attack by bandits recruits seven unemployed samurai to help them defend themselves.",
     youtube_id: "zNqQXC8Tv8U",
     director: "Akira Kurosawa",
-    year: 2013,
+    year: 1954,
     user_id: 2
   },
   {
@@ -54,7 +54,7 @@ Video.create([
     description: "A magic nanny comes to work for a cold banker's unhappy family.",
     youtube_id: "fuWf9fP-A-U",
     director: "Robert Stevenson",
-    year: 2013,
+    year: 1964,
     user_id: 1
   },
   {
@@ -62,7 +62,7 @@ Video.create([
     description: "A Phoenix secretary steals $40,000 from her employer's client, goes on the run and checks into a remote motel run by a young man under the domination of his mother.",
     youtube_id: "Ps8H3rg5GfM",
     director: "Alfred Hitchcock",
-    year: 2013,
+    year: 1960,
     user_id: 2
   }
   ])
